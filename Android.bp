@@ -191,13 +191,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.android.hotwordenrollment.common.util",
-	owner: "oneplus",
-	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "oneplus",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -212,16 +205,23 @@ dex_import {
 }
 
 dex_import {
-	name: "qcrilhook",
+	name: "vendor.qti.hardware.alarm-V1.0-java",
 	owner: "oneplus",
-	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
-	name: "vendor.qti.hardware.alarm-V1.0-java",
+	name: "com.android.hotwordenrollment.common.util",
 	owner: "oneplus",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
+	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "oneplus",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
 	system_ext_specific: true,
 }
 
