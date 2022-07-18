@@ -113,6 +113,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_57 \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/nfc/st21nfc_fw.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw.bin_st21h \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/nfc/st21nfc_fw7.bin_st21h:$(TARGET_COPY_OUT_ODM)/etc/nfc/st21nfc_fw7.bin_st21h \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/samsung1024_amb655x_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655x_eyeprotect_data.xml \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/samsung1024_ana6706_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_eyeprotect_data.xml \
+    vendor/oneplus/sm8250-common/proprietary/odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml \
     vendor/oneplus/sm8250-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/100ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/100ms_RTP.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/120ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/120ms_RTP.bin \
